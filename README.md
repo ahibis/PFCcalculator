@@ -2,8 +2,7 @@
 1. в терминале прописать npm i (yarn)
 2. npm run dev(yarn dev) запуск в браузере
 3. npm run electron:dev(yarn electron:dev) запуск в приложении
-## сайт
-[перейти на сайт](https://ahibis.github.io/PFCcalculator)
+# [перейти на сайт](https://ahibis.github.io/PFCcalculator)
 ![картинка](/github/cite.png)
 
 ## Описание
