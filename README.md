@@ -13,9 +13,9 @@
 - yarn dev - запуск dev браузер версии
 - yarn electron:dev - запуск dev windows версии
 - yarn electron - запуск windows версии
-- yarn build - сбор проекта под сайт
-- yarn build:docs - сбор проекта под github pages
-- yarn app:build - компиляция проекта под браузер
+- yarn build - сборка проекта под сайт
+- yarn build:docs - сборка проекта под github pages
+- yarn app:build - компиляция проекта под windows
 
 ## используемые технологии
 - vue 3
