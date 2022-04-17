@@ -7,7 +7,7 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 1024,
     height: 768,
-    icon: path.resolve(__dirname,"public","favicon.ico"),
+    icon: path.resolve(__dirname,"dist","favicon.ico"),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,

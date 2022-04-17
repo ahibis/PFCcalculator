@@ -1,7 +1,6 @@
 {
-  "name": "scoi",
-  "version": "0.0.0",
-  "private": true,
+  "name": "PFCCalculator",
+  "version": "1.0.0",
   "author": "ahibis<pokesteve31@gmail.com>",
   "scripts": {
     "dev": "vite",
@@ -46,11 +45,14 @@
     "wait-on": "^6.0.1"
   },
   "build": {
-    "appId": "fl3.myapp.ahibis",
-    "productName": "FL3",
+    "appId": "PFCcalculator.myapp.ahibis",
+    "productName": "PFCcalculator",
     "copyright": "Copyright © 2019 ${author}",
     "mac": {
       "category": "public.app-category.utilities"
+    },
+    "win": {
+      "icon": "./public/favicon.ico"
     },
     "nsis": {
       "oneClick": false,
@@ -59,7 +61,8 @@
     "files": [
       "dist/**/*",
       "electron/**/*",
-      "main.js"
+      "main.js",
+      "package.json"
     ],
     "directories": {
       "buildResources": "assets",
